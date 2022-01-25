@@ -27,7 +27,7 @@ const Header = () => {
 
    return (
       <div className='header'>
-         <p className='logo'> Food APP </p>
+         <p className='logo'> FoodHub APP </p>
          <div className='header-right'>
             <Link to= "/">
                <p className={`${activeTab === "Home"? "active" : ""}`} 
